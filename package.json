@@ -1,0 +1,30 @@
+{
+  "name": "realtime-drawing-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon -L src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zorkann/Realtime-Drawing-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zorkann/Realtime-Drawing-App/issues"
+  },
+  "homepage": "https://github.com/Zorkann/Realtime-Drawing-App#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.0.0",
+    "mongoose": "^5.13.3",
+    "p5": "^1.4.0",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
